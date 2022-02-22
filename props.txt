@@ -1,0 +1,15 @@
+#spring.data.mongodb.uri=mongodb://localhost:27017/mrp
+
+#spring.data.mongodb.host=localhost
+#spring.data.mongodb.port=27017
+#spring.data.mongodb.database=mrp
+
+spring.data.mongodb.uri=mongodb+srv://root:root@cluster0.jdinm.mongodb.net/mrp?retryWrites=true&w=majority
+
+eureka.client.serviceUrl.defaultZone=http://ec2-3-142-197-70.us-east-2.compute.amazonaws.com:8761/eureka
+
+server.port=8463
+
+spring.application.name=user-management
+
+spring.jackson.default-property-inclusion=NON_NULL
